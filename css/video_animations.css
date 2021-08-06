@@ -1,0 +1,372 @@
+@keyframes hero {
+    0% {
+        height: 0vh;
+    }
+    33% {
+        height: 50vh;
+    }
+    100% {
+        height: 50vh;
+    }
+}
+
+@keyframes imganim{
+    0%{
+        width: 100%;
+        left: 0vw;
+    }
+    33%{
+        width: 100%;
+        left: 0vw;
+    }
+   66%{
+       width: 80%;
+       left: 10vw;
+   }
+   100%{
+    width: 80%;
+    left: 10vw;
+   }
+}
+
+@keyframes backgroundanim{
+    0%{
+     
+        left: -100vw;
+    }
+
+   66%{
+     
+       left: -100vw;
+   }
+   100%{
+   
+    left: -1vw;
+   }
+}
+
+@keyframes img2anim {
+    0%{
+     
+        left: -100vw;
+        object-fit:cover;
+    }
+
+   66%{
+     
+       left: -100vw;
+       object-fit:cover;
+   }
+   100%{
+   
+    left: 0vw;
+    object-fit:cover;
+   }
+}
+
+
+
+@keyframes bodyanim{
+    0%{
+     
+        left: -100vw;
+    }
+
+    50%{
+    left: -100vw;
+  }
+  50.01%{
+      left: 0%;
+  }
+}
+
+@keyframes bodychildanim{
+    0%{
+      left: -100vw;
+    }
+    20%{
+        left: 0vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
+
+@keyframes bodychildanim2{
+    0%{
+      left: 0vw;
+    }
+    2%{
+        left: -100vw;
+    }
+    100%{
+        left: -100vw;
+    }
+}
+
+
+
+@keyframes navanim{
+    0%{
+     background-color: white;
+        
+    }
+
+   90%{
+     
+       background-color: white ;
+   }
+   100%{
+   
+     background-color: black;
+   }
+}
+
+@keyframes body2divanim{
+    0%{
+        right: -100vw;
+    }
+    20%{
+        right: 0vw;
+    }
+    100%{
+        right: 0vw;
+    }
+}
+
+@keyframes body2divanim2{
+    0%{
+     
+        left: -100vw;
+    }
+
+    50%{
+    left: -100vw;
+  }
+  50.01%{
+      right: -100vw;
+  }
+}
+
+@keyframes videoanim{
+    0%{
+        width: 100%;
+        left: 0vw;
+    }
+    33%{
+        width: 100%;
+        left: 0vw;
+    }
+   66%{
+       width: 80%;
+       left: 10vw;
+   }
+   100%{
+    width: 80%;
+    left: 10vw;
+   }
+}
+
+@media (max-width:800px){
+    #img1{
+   
+        width: 120px;
+       
+    
+    }
+    .helloo {
+      
+        font-size: 8px;
+        
+    }
+    .but{
+        width: 70vw;
+    }
+
+    #checkbox{
+        width: 27px;
+        height: 30px;
+    }
+    #icon{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+@keyframes videoanim2 {
+    0%{
+        transform: translateX(-50vw);
+    }
+    26%{
+        transform: translateX(5vw);
+    }
+    33.3%{
+        transform: translateX(-3vw);
+    }
+    40.3%{
+        transform: translateX(0vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+
+}
+
+
+@keyframes videoanim22 {
+    0%{
+        transform: translateX(50vw);
+    }
+    26%{
+        transform: translateX(-5vw);
+    }
+    33.3%{
+        transform: translateX(3vw);
+    }
+    40.3%{
+        transform: translateX(0vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+
+}
+
+@keyframes videoanim222 {
+ 0%{
+    background-color: rgba(255, 0, 0, 0);
+ }
+   66%{
+       background-color: rgba(255, 0, 0, 0);
+   }
+    100%{
+        background-color:rgba(7, 1, 78, 0.664);;
+    }
+
+}
+
+
+
+@keyframes bodyanim11{
+    0%{
+        transform: translateX(-100vw);
+        
+    }
+
+    50%{
+        transform: translateX(-100vw);
+  }
+  50.01%{
+    transform: translateX(0vw);
+  }
+}
+
+
+
+
+
+@media (max-width:500px){
+    #img{
+   
+        
+        height: 17vw;
+        
+    }
+    #video{
+    
+
+        width: 90vw;
+        
+     }
+     .backdiv{
+        width: 100vw;
+        height: 75vh;
+    
+        top: 5vh;
+       
+       
+    } 
+}
+
+
+
+
+@media (max-width:500px){
+    
+    #h11{
+        top: 85vh;
+    }
+
+    #vid{
+        top: 90vh;
+    }
+    #h1{
+        font-size: 20px;
+    }
+}
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+/******************************************/
+/*ვესაიტის ჩატვირთვის სტილი*/
+/*ვესაიტის ჩატვირთვის სტილი*/
+/*ვესაიტის ჩატვირთვის სტილი*/
+
+@keyframes anim{
+    0% {
+        border-radius: 50%;
+        border: 6px solid rgb(0, 0, 124);
+    }
+    25% {
+        border-radius: 50%;
+        border: 6px solid white;
+    }
+
+    50% {
+        border-radius: 50%;
+        border: 6px solid rgb(0, 0, 124);
+    }
+    75% {
+        border-radius: 50%;
+        border: 6px solid white;
+    }
+    100% {
+        border-radius: 50%;
+        border: 6px solid rgb(0, 0, 124);
+    }
+   
+}
+
+@keyframes anim2{
+    0% {
+        border-radius: 50%;
+        border: 6px solid white;
+    }
+    25% {
+        border-radius: 50%;
+        border: 6px solid rgb(0, 0, 124);
+    }
+
+    50% {
+        border-radius: 50%;
+        border: 6px solid white;
+    }
+    75% {
+        border-radius: 50%;
+        border: 6px solid rgb(0, 0, 124);
+    }
+    100% {
+        border-radius: 50%;
+        border: 6px solid white;
+    }
+
+   
+}
+/*ვესაიტის ჩატვირთვის სტილი*/
